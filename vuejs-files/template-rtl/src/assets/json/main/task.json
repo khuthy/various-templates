@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Personalize your account",
+        "company": "David cravo",
+        "date": "02, Jan 2020",
+        "company1": "David cravo",
+        "status": "Not Started"
+    },
+    {
+        "id": 2,
+        "name": "Add your customers",
+        "company": "John Doe",
+        "date": "02, Jan 2020",
+        "company1": "John Doe",
+        "status": "Not Started"
+    },
+    {
+        "id": 3,
+        "name": "Invite your team",
+        "company": "James amen",
+        "date": "02, Jan 2020",
+        "company1": "James amen",
+        "status": "Not Started"
+    },
+    {
+        "id": 4,
+        "name": "Save your emails",
+        "company": "Williams",
+        "date": "02, Jan 2020",
+        "company1": "Williams",
+        "status": "Not Started"
+    },
+    {
+        "id": 5,
+        "name": "Connect to your files",
+        "company": "John Smith",
+        "date": "02, Jan 2020",
+        "company1": "John Smith",
+        "status": "Not Started"
+    },
+    {
+        "id": 6,
+        "name": "Personalize your account",
+        "company": "David cravo",
+        "date": "02, Jan 2020",
+        "company1": "David cravo",
+        "status": "Not Started"
+    },
+    {
+        "id": 7,
+        "name": "Customers Meeting",
+        "company": "John Smith",
+        "date": "02, Jan 2020",
+        "company1": "John Smith",
+        "status": "Not Started"
+    }
+]

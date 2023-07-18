@@ -1,0 +1,140 @@
+<div class="page add-tasks" data-name="add-tasks">
+
+	<!-- Header -->
+	<div class="navbar">
+		<div class="navbar-inner align-items-center">
+			<div class="left back-page">
+				<a href="/tasks/">
+					<i class="fas fa-angle-left"></i>
+				</a>
+			</div>
+			<div class="page-header-title">
+				<h4>Add Tasks</h4>
+			</div>                       
+		</div>
+	</div>
+	<!-- /Header -->
+	
+	<div class="page-content">
+		<div class="block">
+			<form>
+				<!-- Task Details -->
+				<div class="card">
+					<h5>Task Details</h5>
+
+					<div class="margin-top">
+						<div class="form-group">
+							<label>Task Name*</label>
+							<input type="text" class="form-control" placeholder="Task Name">
+						</div>
+						<div class="form-group">
+							<label>Assigned To</label>
+							<input type="text" class="form-control" placeholder="Me">
+						</div>
+						<div class="form-group">
+							<label>Category</label>
+							<input type="email" class="form-control" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<label>Due Date*</label>
+							<input type="text" class="form-control" readonly="readonly" id="due-date" placeholder="mm/dd/yy">
+						</div>
+					</div>
+				</div>
+
+				<!-- Additional Information -->
+				<div class="card add-card">
+					<h5>Additional Information</h5>
+
+					<div class="margin-top">
+						<div class="form-group">
+							<label>Start Date*</label>
+							<input type="text" class="form-control" readonly="readonly" id="start-date" placeholder="mm/dd/yy">
+						</div>
+						<div class="form-group">
+							<label>Reminder Date*</label>
+							<input type="text" class="form-control" readonly="readonly" id="reminder-date" placeholder="mm/dd/yy">
+						</div>
+						<div class="form-group">
+							<label>Progress</label>
+							<input type="text" class="form-control" placeholder="Progress">
+						</div>
+						<div class="form-group">
+							<label>Progress</label>
+							<input type="text" class="form-control" placeholder="Progress">
+						</div>
+						<div class="form-group">
+							<label>Priority</label>
+							<select class="form-control">
+								<option>Low</option>
+								<option>High</option>
+								<option>Medium</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label>Priority</label>
+							<select class="form-control">
+								<option>Low</option>
+								<option>High</option>
+								<option>Medium</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label>Status</label>
+							<select class="form-control">
+								<option>Not Started</option>
+								<option>Started</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<!-- Related To -->
+				<div class="card add-card">
+					<h5>Related To</h5>
+
+					<div class="margin-top">
+						<div class="form-group">
+							<label>Related To</label>
+							<select class="form-control">
+								<option>Select</option>
+								<option>Started</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<!-- Description Information -->
+				<div class="card add-card">
+					<h5>Description</h5>
+
+					<div class="margin-top">
+						<div class="form-group">
+							<label>Description</label>
+							<textarea class="form-control" rows="3" placeholder="Description"></textarea>
+						</div>
+					</div>
+				</div>
+
+				<!-- Permissions -->
+				<div class="card add-card">
+					<h5>Permissions</h5>
+
+					<div class="margin-top">
+						<div class="form-group">
+							<label>Permissions</label>
+							<select class="form-control">
+								<option>Task Visibility</option>
+								<option>Non Visible</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<a href="/tasks/" class="btn btn-primary w-100">Submit</a>				
+			</form>
+		</div>
+	</div>
+	<!-- Page Content end -->
+
+</div>
+<!-- App end -->

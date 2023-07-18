@@ -1,0 +1,55 @@
+<template>
+    <div class="page-header  mb-0 ">
+        <div class="row">
+            <div class="col">
+
+                <div class="dropdown">
+                    <a class="dropdown-toggle recently-viewed" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> All Projects</a>
+                    <div class="dropdown-menu" x-placement="bottom-start">
+                        <a class="dropdown-item" href="#">Recently Viewed</a>
+                        <a class="dropdown-item" href="#">Items I'm following</a>
+                        <a class="dropdown-item" href="#">All Projects</a>
+                        <a class="dropdown-item" href="#">All Closed Deals</a>
+                        <a class="dropdown-item" href="#">All Open Deals</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-end">
+                <ul class="list-inline-item ps-0">
+                    
+                    <li class="dropdown list-inline-item add-lists">
+                        <a class="dropdown-toggle recently-viewed pe-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                            <div class="nav-profile-text">
+                              <i class="fa fa-cog" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Choose Columns</a>
+                            <a class="dropdown-item" href="#">Group Columns</a>
+                            <a class="dropdown-item" href="#">Sharing Settings</a>
+                            <a class="dropdown-item" href="#">Rename</a>
+                            <a class="dropdown-item" href="#">Clone</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                    </li>
+                    <li class="dropdown list-inline-item add-lists">
+                        <a class="dropdown-toggle recently-viewed pe-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                            <div class="nav-profile-text">
+                              <i class="fa fa-th" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <router-link class="dropdown-item" to="/projects">List View</router-link>
+                            <router-link class="dropdown-item" to="/projects-kanban-view">Kanban View</router-link>
+                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-new-list">Add New List View</a>
+                        </div>
+                    </li>
+                    
+                    <li class="list-inline-item">
+                        <button class="add btn btn-gradient-primary font-weight-bold text-white todo-list-add-btn btn-rounded" id="add-task" data-bs-toggle="modal" data-bs-target="#add_project">New Project</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>

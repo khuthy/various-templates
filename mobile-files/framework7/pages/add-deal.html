@@ -1,0 +1,218 @@
+<div class="page add-tasks" data-name="add-deal">
+
+	<!-- Header -->
+	<div class="navbar">
+		<div class="navbar-inner align-items-center">
+			<div class="left back-page">
+				<a href="/deals/">
+					<i class="fas fa-angle-left"></i>
+				</a>
+			</div>
+			<div class="page-header-title">
+				<h4>Add Deal</h4>
+			</div>
+		</div>
+	</div>
+	<!-- /Header -->
+	
+	<div class="page-content add-deal">
+		<div class="block">
+			<form>
+				<!-- Task Details -->
+				<div class="card">
+					<h5>Task Details</h5>
+
+					<div class="margin-top">
+						<ul class="list no-margin">
+							<li class="item-content item-input item-input-outline">
+								<div class="item-inner">
+									<div class="item-title item-label">Deal Name*</div>
+									<div class="item-input-wrap">
+										<input type="text" class="" placeholder="Prefix">
+										<span class="input-clear-button"></span>
+									</div>
+								</div>
+							</li>
+							<li class="item-content item-input item-input-outline no-margin">
+								<div class="item-inner">
+									<div class="item-title item-label">Company</div>
+									<div class="item-input-wrap">
+										<select>
+											<option>Select</option>
+											<option>High</option>
+											<option>Medium</option>
+										</select>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!-- Additional Information -->
+				<div class="card">
+					<h5>Additional Information</h5>
+
+					<div class="margin-top">
+						<ul class="list no-margin">
+							<li class="item-content item-input item-input-outline">
+								<div class="item-inner">
+									<div class="item-title item-label">Category</div>
+									<div class="item-input-wrap">
+										<input type="text" class="" placeholder="Category">
+										<span class="input-clear-button"></span>
+									</div>
+								</div>
+							</li>
+							<li class="item-content item-input item-input-outline">
+								<div class="item-inner">
+									<div class="item-title item-label">Probability Of Winning</div>
+									<div class="item-input-wrap">
+										<input type="text" class="" placeholder="Probability Of Winning">
+										<span class="input-clear-button"></span>
+									</div>
+								</div>
+							</li>
+							<li class="item-content item-input item-input-outline">
+								<div class="item-inner">
+									<div class="item-title item-label">Forecast Close Date *</div>
+									<div class="item-input-wrap">
+										<input type="text" class="" readonly="readonly" id="forecast-close-date" placeholder="mm/dd/yy">
+										<span class="input-clear-button"></span>
+									</div>
+								</div>
+							</li>
+							<li class="item-content item-input item-input-outline">
+								<div class="item-inner">
+									<div class="item-title item-label">Actual Close Date *</div>
+									<div class="item-input-wrap">
+										<input type="text" class="" readonly="readonly" id="actual-close-date" placeholder="mm/dd/yy">
+										<span class="input-clear-button"></span>
+									</div>
+								</div>
+							</li>
+							<li class="item-content item-input item-input-outline">
+								<div class="item-inner">
+									<div class="item-title item-label">User Responsible</div>
+									<div class="item-input-wrap">
+										<input type="text" class="" placeholder="John Doe">
+										<span class="input-clear-button"></span>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="row">
+							<div class="col-100 medium-50">
+								<ul class="list no-margin">
+									<li class="item-content item-input item-input-outline">
+										<div class="item-inner">
+											<div class="item-title item-label">Deal Value</div>
+											<div class="item-input-wrap">
+												<select>
+													<option>USD $</option>
+													<option>High</option>
+													<option>Medium</option>
+												</select>
+											</div>
+										</div>
+									</li>								
+								</ul>						
+							</div>
+							<div class="col-100 medium-50">
+								<ul class="list no-margin">
+									<li class="item-content item-input item-input-outline">
+										<div class="item-inner">
+											<div class="item-title item-label">&nbsp;</div>
+											<div class="item-input-wrap">
+												<input type="text" class="" placeholder="Bid Amount">
+												<span class="input-clear-button"></span>
+											</div>
+										</div>
+									</li>			
+								</ul>						
+							</div>
+							<div class="col-100 medium-50">
+								<ul class="list no-margin">
+									<li class="item-content item-input item-input-outline no-margin">
+										<div class="item-inner">
+											<div class="item-title item-label">Deal Value</div>
+											<div class="item-input-wrap">
+												<select>
+													<option>Fixed Bid</option>
+													<option>High</option>
+													<option>Medium</option>
+												</select>
+											</div>
+										</div>
+									</li>
+								</ul>						
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Description Information -->
+				<div class="card">
+					<h5>Description Information</h5>
+
+					<div class="margin-top">
+						<ul class="list no-margin">
+							<li class="item-content item-input item-input-outline no-margin">
+								<div class="item-inner">
+									<div class="item-title item-label">Description</div>
+									<div class="item-input-wrap">
+										<textarea class="" rows="3"></textarea>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Tag Information -->
+				<div class="card">
+					<h5>Tag Information</h5>
+
+					<div class="margin-top">
+						<ul class="list no-margin">
+							<li class="item-content item-input item-input-outline no-margin">
+								<div class="item-inner">
+									<div class="item-title item-label">Tag List</div>
+									<div class="item-input-wrap">
+										<input type="text" class="" placeholder="Tag List">
+										<span class="input-clear-button"></span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Permissions -->
+				<div class="card">
+					<h5>Permissions</h5>
+
+					<div class="margin-top">
+						<ul class="list no-margin">
+							<li class="item-content item-input item-input-outline no-margin">
+								<div class="item-inner">
+									<div class="item-title item-label">Permissions</div>
+									<div class="item-input-wrap">
+										<select class="form-control">
+											<option>Task Visibility</option>
+											<option>Non Visible</option>
+										</select>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<a href="/deals/" class="btn btn-primary display-block">Submit</a>
+			</form>
+		</div>
+	</div>
+	<!-- Page Content end -->
+
+</div>
+<!-- App end -->

@@ -1,0 +1,77 @@
+<div class="page add-tasks" data-name="new-activity">
+
+	<!-- Header -->
+	<div class="navbar">
+		<div class="navbar-inner align-items-center">
+			<div class="left back-page">
+				<a href="/activities/">
+					<i class="fas fa-angle-left"></i>
+				</a>
+			</div>
+			<div class="page-header-title">
+				<h4>New Activity</h4>
+			</div>
+		</div>
+	</div>
+	<!-- /Header -->
+	
+	<div class="page-content">
+		<div class="block">
+			<form>
+				<!-- Schedule an Activity -->
+				<div class="card">
+					<h5>Schedule an Activity</h5>
+
+					<div class="margin-top">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Call">
+						</div>
+						<div class="row">
+							<div class="col-50 form-group">
+								<input type="text" class="form-control" readonly="readonly" id="due-date" placeholder="mm/dd/yy">
+							</div>
+							<div class="col-50 form-group">
+								<input type="text" class="form-control" readonly="readonly" id="start-date" placeholder="02:00">
+							</div>
+						</div>
+						<div class="form-group">
+							<select class="form-control">
+								<option>Select Status</option>
+								<option>Completed</option>
+								<option>Not Started</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="3" placeholder="Notes"></textarea>
+						</div>
+						<small class="form-text text-muted">Notes are private and visible only within your Pipedrive account</small>
+						<div class="form-group margin-top">
+							<select class="form-control">
+								<option>John Doe</option>
+								<option>Completed</option>
+								<option>Not Started</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Deal or Lead">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="People">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Organization">
+						</div>
+						<div class="form-group form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Mark as Done</label>
+						</div>
+					</div>
+				</div>
+				<a href="/activities/" class="btn btn-primary w-100">Submit</a>				
+			</form>
+		</div>
+	</div>
+	<!-- Page Content end -->
+
+</div>
+<!-- App end -->

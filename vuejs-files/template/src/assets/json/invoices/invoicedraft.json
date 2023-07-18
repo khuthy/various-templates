@@ -1,0 +1,37 @@
+[
+    {   
+        "id": 1,
+        "img": "avatar-04.jpg",
+        "name": "Barbara Moore",
+        "cost": "$1,54,220",
+        "cost1": "16 Mar 2022"
+    },
+    {
+        "id": 2,
+        "img": "avatar-06.jpg",
+        "name": "Karlene Chaidez",
+        "cost": "$1,222",
+        "cost1": "14 Mar 2022"
+    },
+    {
+        "id": 3,
+        "img": "avatar-08.jpg",
+        "name": "Russell Copeland",
+        "cost": "$3,470",
+        "cost1": "7 Mar 2022"
+    },
+    {
+        "id": 4,
+        "img": "avatar-10.jpg",
+        "name": "Joseph Collins",
+        "cost": "$8,265",
+        "cost1": "24 Mar 2022"
+    },
+    {
+        "id": 5,
+        "img": "avatar-11.jpg",
+        "name": "Jennifer Floyd",
+        "cost": "$5,200",
+        "cost1": "17 Mar 2022"
+    }
+]
